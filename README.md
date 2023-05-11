@@ -5,7 +5,7 @@ example url GET :http://localhost:4000/GetRandomNumber?start=10&end=20
 
 expected response :
 {
-    "result": 12 / and random number within 10-20
+    "result": 12 or any random number within 10-20
 }
 
 ## Counting numbers, characters and special characters from a string 
