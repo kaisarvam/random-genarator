@@ -3,8 +3,10 @@ const NumberRoutes = require("./NumberRoutes");
 const PersonRoutes = require("./PersonRoutes");
 const StringcountRoutes = require("./StringCountRoutes");
 
-router.use("/api", NumberRoutes);
-router.use("/api", PersonRoutes);
-router.use("/api", StringcountRoutes);
+const CommonApiText = `/api`;
+
+router.use(CommonApiText, NumberRoutes);
+router.use(CommonApiText, PersonRoutes);
+router.use(CommonApiText, StringcountRoutes);
 
 module.exports = router;
