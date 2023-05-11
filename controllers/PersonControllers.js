@@ -2,7 +2,7 @@ const { createPersonFromData } = require("../services/PersonServices");
 
 const getRandomPerson = async (req, res) => {
   const { data } = req.body;
-  console.log(data);
+  //console.log(data);
   if (!data || data.length === 0) {
     return res.status(400).json({ error: "No data provided." });
   }

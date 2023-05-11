@@ -14,7 +14,7 @@ const createPersonFromData = (data) => {
           ? `${person.firstName}.${person.lastName}@gmail.com`
           : faker.internet.email())
     : null;
-  data.includes("phone") ? (person.phone = faker.phone.phoneNumber()) : null;
+  data.includes("phone") ? (person.phone = faker.phone.number()) : null;
 
   return person;
 };
