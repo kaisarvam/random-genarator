@@ -1,0 +1,18 @@
+{
+  "name": "random-genarator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-personal:kaisarvam/random-genarator.git",
+  "author": "kaisar Sarwar <kaisarvam3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
