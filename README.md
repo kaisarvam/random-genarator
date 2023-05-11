@@ -1,7 +1,7 @@
 # random-genarator
 ## Genataing-random-values from start and end number 
  send input using url param
-example url GET :http://localhost:4000/GetRandomNumber?start=10&end=20
+example url GET :http://localhost:4000/api/GetRandomNumber?start=10&end=20
 
 expected response :
 {
@@ -10,7 +10,7 @@ expected response :
 
 ## Counting numbers, characters and special characters from a string 
 send input using url param
-example url GET : http://localhost:4000/StringCount?countString=test123@@@$$%^*()_-+=
+example url GET : http://localhost:4000/api/StringCount?countString=test123@@@$$%^*()_-+=
 
 expected response : {
     "result": {
@@ -31,7 +31,7 @@ input data format : {
     ]
 }
 
-example url POST :http://localhost:4000/GetPerson
+example url POST :http://localhost:4000/api/GetPerson
 
 expected response : {
     "person": {
